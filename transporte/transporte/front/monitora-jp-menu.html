@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: "Inter", sans-serif;
+        }
+
+        header {
+            background-color: #24252a;
+            box-shadow: 0px 3px 10px #464646;
+        }
+
+        .nav-bar {
+            display: flex;
+            justify-content: space-between;
+            padding: 1.5rem 2.8rem;
+        }
+
+        
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo h1 {
+            display: flex;
+            align-items: center;
+            color: #ffffff;
+        }
+
+        .aba {
+            display: flex;
+            align-items: center;
+            padding-left: 35%;
+        }
+
+        .aba ul {
+            display: flex;
+            justify-content: center;
+            text-decoration: none;
+            list-style: none;
+        }
+            
+        
+
+        .aba-link {
+            display: flex;
+            background-color: aqua;
+            justify-content: center;
+            text-decoration: none;
+            font-size: 19px;
+            color: #ffffff;
+            font-weight: 400;
+            cursor: pointer;
+            padding: 10px 10px 10px 10px;
+            border-radius: 10px;
+        }
+
+        .cadastro {
+            padding-left: 35%;
+        }
+
+
+
+        .cadastro button a {
+            text-decoration: none;
+            color: #000000;
+        }
+
+        .login button a {
+            text-decoration: none;
+            color: #ffffff;   
+        }
+
+        .cadastro button { 
+            border: 0;
+            padding: 15px 9px;
+            border-radius: 15px;
+        }
+
+        .login button {
+            border: 0;
+            padding: 15px 9px;
+            background-color: rgb(36, 36, 236);
+            border-radius: 15px;
+        }
+
+        .objetivo {
+            justify-content: center;
+            display: flex;
+            align-items: center;
+            margin: 10rem 30rem;
+            padding: 150px 0px 150px 0px;
+            background-color:rgb(183, 236, 36);
+            border-radius: 60px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1>MONITORA-JP</h1>
+            </div>
+            <div class="aba">
+                <ul>
+                    <li class="aba-item"><a href="#obj" class="aba-link">Objetivo do site</a></li>  
+                </ul>
+            </div>
+            <div class="cadastro">
+                <button><a href="#">Cadastrar-se</a></button>
+                
+            </div>
+            <div class="login">
+                <button><a href="#">Entrar</a></button>
+            </div>
+        </nav>              
+    </header>
+    <section>
+        <div class="objetivo" id="obj">
+            <p>O site MONITORA-JP tem como objetivo</p>
+        </div>
+    </section>
+</body>
+</html>
