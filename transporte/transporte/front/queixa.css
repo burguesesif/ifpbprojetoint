@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-image: url(menu1.jpg);
+    display: relative;
+    
+}
+
+header {
+    background-color: #24252a;
+    box-shadow: 0px 3px 10px #464646;
+}
+
+.nav-bar {
+    display: flex;
+    padding: 1.5rem 2.8rem;
+    justify-content: space-between;
+}
+
+.nav-bar h1 {
+    color: #ffffff;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.queixa {
+    justify-content: center;
+    padding: 6rem 4rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    margin: 5rem;
+    background-color: #a1d4dd;
+    
+}
+
+.queixa form {
+    margin-top: 3rem;
+}
+
+.form {
+    margin-left: 0;
+}
+
+.queixa form input {
+    width: 20rem;
+    justify-content: left;
+    background: transparent;
+    border: 0;
+    padding: 10px 0.5rem;
+    text-align: left;
+    outline: 0;
+}
+
+.campo {
+    display: flex;
+    align-items: center;
+    background: transparent;
+    background-color: #eaeaea;
+    margin: 1.5rem 0;
+    padding: 10px 0 10px 10px;
+    border-radius: 0.5rem;
+    border: 0;
+    
+}
+
+input {
+    
+    text-align: left;
+    margin: 0;
+    outline: 0;
+}
+
+button {
+    border-color: #eb1010;
+    padding: 1rem 2rem;
+    border-radius: 1.5rem;
+    border-width: 3px;
+    
+}
+
+button:hover {
+    background-color: #000000;
+    color: #ffffff;
+    transition: 1.5s;
+}
